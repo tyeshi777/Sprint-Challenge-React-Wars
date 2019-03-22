@@ -12,6 +12,10 @@ const Item = props => {
         <strong>Gender: </strong>
         {props.item.gender}
       </li>
+      <li>
+        <strong>Created: </strong>
+        {props.item.created}
+      </li>
     </div>
   );
 };
