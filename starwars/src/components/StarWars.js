@@ -5,8 +5,8 @@ import Item from "./Item";
 const StarWars = props => {
   return (
     <div className="starwar-list">
-      {props.starwarsChars.map(item => (
-        <Item key={item.id} item={item} />
+      {props.starwarsChars.map((item, index) => (
+        <Item key={index} item={item} />
       ))}
     </div>
   );
