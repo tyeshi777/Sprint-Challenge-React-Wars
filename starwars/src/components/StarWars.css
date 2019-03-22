@@ -1,0 +1,18 @@
+.ul {
+  list-style-type: none;
+  width: 300px;
+  height: 200px;
+  /* border: 1px solid red; */
+  margin: 10px 10px 10px 0;
+  text-decoration: underline;
+}
+.starwar-list {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(12, 13, 14);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.ul strong {
+  color: rgb(12, 13, 14);
+}
